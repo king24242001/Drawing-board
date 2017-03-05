@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\AS_workspace\DukePenText\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="E:\AS_workspace\DukePenText\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.4.0_75b53c57c2521888d3c37551821fa201b75db135.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS_workspace\DukePenText\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b75db448e7e8b05c02dd18bd3fce3231d9d21b84">
+        <dex dex="E:\AS_workspace\DukePenText\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_ffb01260f74ed4479ca82d54e0bcc5c0fb7ae24c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS_workspace\DukePenText\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\AS_workspace\DukePenText\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.2.0_acd038615da4cb980c8faa1eee4f61928900922c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS_workspace\DukePen1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="E:\AS_workspace\DukePen1\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-8.4.0_fa2382262208c65710018e1809e9b5320f14c3ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS_workspace\DukePen1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="E:\AS_workspace\DukePen1\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.2.0_a28bb6c2a8be0e724c4dfb88422039e11ad44fea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS_workspace\DukePenText\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="E:\AS_workspace\DukePenText\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.2.0_a8b264a62cc2214184e7370bbdcf6257e6525287.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS_workspace\DukePenText\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="E:\AS_workspace\DukePenText\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-8.4.0_dd4b58e39caea3dce9a1c835989a3bef0149cf4d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS_workspace\DukePenText\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="E:\AS_workspace\DukePenText\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.2.0_4da4c45f51aa5789c07550184da48d0b2cb47182.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS_workspace\DukePen1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="E:\AS_workspace\DukePen1\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.4.0_f260ed9116a07dc7be08ff94f950c045737b1436.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS_workspace\DukePen1\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="E:\AS_workspace\DukePen1\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.2.0_a30e66ae0a753b7a24515408479d45bd0ea6f911.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android\android-sdks\extras\android\m2repository\com\android\support\support-annotations\25.2.0\support-annotations-25.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="E:\AS_workspace\DukePen1\app\build\intermediates\pre-dexed\debug\support-annotations-25.2.0_75cbfa95f5dcac4871abb3f712999197d28a3560.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS_workspace\DukePen1\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="E:\AS_workspace\DukePen1\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.2.0_e95bf6a420bdd53edb031bb1477a82e730c17e6f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS_workspace\DukePen1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="E:\AS_workspace\DukePen1\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-8.4.0_d5fe59c928721da3055a501f6f4f19cfbb50fbfb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS_workspace\DukePen1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9df7531d38f7af7ebaffbc2770862584e8a1fd27">
+        <dex dex="E:\AS_workspace\DukePen1\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_82fa40b50e5cc61b6e73467cb21bd99c78473141.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS_workspace\DukePenText\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="E:\AS_workspace\DukePenText\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.2.0_d893231b7bc02a02a65d2e02bcc270063e6ee8e6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS_workspace\DukePenText\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="E:\AS_workspace\DukePenText\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.2.0_e8985394df8a3ee706ba917797a1dc0eaf0237d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS_workspace\DukePenText\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa91d05ad0211a61e3536e499ef90fcf9b6c2375">
+        <dex dex="E:\AS_workspace\DukePenText\app\build\intermediates\pre-dexed\debug\instant-run_b5cc667c346b2a02f110121581a20c785d347f04.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS_workspace\DukePen1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4398f40d0efdf3933f78cecdfb0b38fd1bc44ae6">
+        <dex dex="E:\AS_workspace\DukePen1\app\build\intermediates\pre-dexed\debug\instant-run_4c9ecb7c1a6b78e8b468e318562d04632d2e1092.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS_workspace\DukePenText\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="E:\AS_workspace\DukePenText\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.2.0_6478f2934c43687ce9aa2d9b1d70eb2d17a7606b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS_workspace\DukePen1\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="E:\AS_workspace\DukePen1\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.2.0_4c5db0359d9994d24ae6a46278e73f4610f811af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS_workspace\DukePen1\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="E:\AS_workspace\DukePen1\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.2.0_0848c626830e90d2fffe9fe9d3804881691a5265.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS_workspace\DukePen1\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="E:\AS_workspace\DukePen1\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.2.0_539e05e370089e9c160c5d4b5e41bc25064cb3a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS_workspace\DukePenText\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="E:\AS_workspace\DukePenText\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.2.0_b66a9b666c14259d32df3b70f102d96ac8cda6a8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS_workspace\DukePenText\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="E:\AS_workspace\DukePenText\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-8.4.0_9964621743d5888a1ebfc5bc941994215e957553.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS_workspace\DukePenText\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="E:\AS_workspace\DukePenText\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.2.0_e0ca3f074cb237b66b2e7afe0fa74f1364a79092.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS_workspace\DukePenText\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="E:\AS_workspace\DukePenText\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.2.0_2a87c879cb065b05baa644fe730a7aad8256df1e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS_workspace\DukePen1\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\AS_workspace\DukePen1\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.2.0_ee30fca5b4ecfbb0d262736ed706dac273a3dee8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS_workspace\DukePen1\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="E:\AS_workspace\DukePen1\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.2.0_6d6bd188ac355f27a9d88b28af458490adaf9dfb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS_workspace\DukePen1\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="E:\AS_workspace\DukePen1\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.2.0_b8874f51427d5f7c3c536e2963ed74176d6af5d2.jar" />
+    </item>
+
+</items>

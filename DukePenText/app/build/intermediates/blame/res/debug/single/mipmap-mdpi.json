@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\AS_workspace\\DukePenText\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "E:\\AS_workspace\\DukePenText\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AS_workspace\\DukePen1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "E:\\AS_workspace\\DukePen1\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    }
+]
