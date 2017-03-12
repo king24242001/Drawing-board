@@ -7,7 +7,6 @@ import android.os.Environment;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.SeekBar;
 import android.widget.Toast;
@@ -22,7 +21,6 @@ public class MainActivity extends Activity implements OnClickListener {
     private PenDrawView penDrawView;
     private LinearLayout layout;
     private Button clearBt, penBt, eraserBt, colorBt, nextBt, lastBt, saveBt;
-    private ImageView showImage;
     private ColorPickerDialog colorPickerDialog;
     private SeekBar seekBar;
 
@@ -46,7 +44,6 @@ public class MainActivity extends Activity implements OnClickListener {
         nextBt = (Button) findViewById(R.id.next_bt);
         lastBt = (Button) findViewById(R.id.last_bt);
         saveBt = (Button) findViewById(R.id.save_bt);
-        showImage = (ImageView) findViewById(R.id.showimage);
         layout = (LinearLayout) findViewById(R.id.layout);
         seekBar = (SeekBar)findViewById(R.id.seekbar);
     }
@@ -100,12 +97,10 @@ public class MainActivity extends Activity implements OnClickListener {
                 break;
             case R.id.pen_bt:
                 penDrawView.changePen();
-                showImage.setVisibility(View.GONE);
                 penDrawView.setVisibility(View.VISIBLE);
                 layout.setVisibility(View.VISIBLE);
                 eraserBt.setVisibility(View.VISIBLE);
                 colorBt.setVisibility(View.VISIBLE);
-                showImage.setImageBitmap(null);
                 Toast.makeText(MainActivity.this, "畫筆模式", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.eraser_bt:
