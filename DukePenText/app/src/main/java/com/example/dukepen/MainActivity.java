@@ -33,9 +33,8 @@ public class MainActivity extends Activity implements OnClickListener {
 
         findViews();
         setListener();
-        setSize();
         setColor();
-
+        setSize();
     }
 
     private void findViews(){
@@ -107,11 +106,11 @@ public class MainActivity extends Activity implements OnClickListener {
                 eraserBt.setVisibility(View.VISIBLE);
                 colorBt.setVisibility(View.VISIBLE);
                 showImage.setImageBitmap(null);
-                Toast.makeText(MainActivity.this, "畫筆", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "畫筆模式", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.eraser_bt:
                 penDrawView.changeEraser();
-                Toast.makeText(MainActivity.this, "橡皮擦", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "橡皮擦模式", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.color_bt:
                 colorPickerDialog.setmInitialColor(penDrawView.getPenColor());
@@ -124,15 +123,6 @@ public class MainActivity extends Activity implements OnClickListener {
                 penDrawView.nextStep();
                 break;
             case R.id.save_bt:
-//			showImage.setImageBitmap(penDrawView.getBitmap());
-//			showImage.setVisibility(View.VISIBLE);
-//			penDrawView.setVisibility(View.GONE);
-//			layout.setVisibility(View.VISIBLE);
-//			eraserBt.setVisibility(View.GONE);
-//			colorBt.setVisibility(View.GONE);
-//			lastBt.setVisibility(View.GONE);
-//			nextBt.setVisibility(View.GONE);
-//			clearBt.setVisibility(View.GONE);
                 try {
                     File file = new File(Environment.getExternalStorageDirectory(),
                             System.currentTimeMillis() + ".png");
@@ -145,7 +135,6 @@ public class MainActivity extends Activity implements OnClickListener {
                     Toast.makeText(MainActivity.this, "保存失敗", Toast.LENGTH_SHORT).show();
                     e.printStackTrace();
                 }
-                //penDrawView.redraw();
                 break;
         }
     }

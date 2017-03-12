@@ -1,13 +1,13 @@
-/**   
+/**
  * Copyright © 2014 All rights reserved.
- * 
- * @Title: PenDrawView.java 
+ *
+ * @Title: PenDrawView.java
  * @Prject: DukePen
- * @Package: com.example.dukepen 
+ * @Package: com.example.dukepen
  * @Description: TODO
- * @author: raot raotao.bj@cabletech.com.cn 
- * @date: 2014年10月10日 上午11:11:05 
- * @version: V1.0   
+ * @author: raot raotao.bj@cabletech.com.cn
+ * @date: 2014年10月10日 上午11:11:05
+ * @version: V1.0
  */
 package com.example.dukepen;
 
@@ -76,29 +76,12 @@ public class PenDrawView extends View {
 			paint.setColor(penColor);
 			cacheCanvas.drawColor(Color.WHITE);
 			invalidate();
-//			while (position + 1 < bitmapList.size()) {
-//				bitmapList.remove(bitmapList.size() - 1);
-//			}
 			addBitmap();
 			isClear = true;
 			if (isEraser) {
 				paint.setColor(Color.WHITE);
 			}
 
-		}
-	}
-
-	//重新繪製
-	public void redraw() {
-		if (cacheCanvas != null) {
-			paint.setColor(Color.WHITE);
-			cacheCanvas.drawPaint(paint);
-			paint.setColor(penColor);
-			cacheCanvas.drawColor(Color.WHITE);
-			invalidate();
-			bitmapList.clear();
-			addBitmap();
-			changePen();
 		}
 	}
 
@@ -186,38 +169,35 @@ public class PenDrawView extends View {
 	@Override
 	public boolean onTouchEvent(MotionEvent event) {
 		switch (event.getActionMasked()) {
-		case MotionEvent.ACTION_DOWN:
-			isClear = false;
-			currentX = event.getX(event.getActionIndex());
-			currentY = event.getY(event.getActionIndex());
-			path.moveTo(currentX, currentY);
-			break;
-		case MotionEvent.ACTION_MOVE:
-			if (isOtherTouch) {
-				return true;
-			}
-			float x = event.getX(event.getActionIndex());
-			float y = event.getY(event.getActionIndex());
-			path.quadTo(currentX, currentY, x, y);
-			//quadTo代表的是從目前繪製路徑中的最後一個節點畫到下一個路徑節點之間，增加一個加上「quadratic bezier」，
-			//用以讓二個節點之間增加數個節點，連結起來更平滑，不會有急轉彎的線條出現。
-			currentX = x;
-			currentY = y;
-			break;
-		case MotionEvent.ACTION_UP:
-			isOtherTouch = false;
-			cacheCanvas.drawPath(path, paint);
-			path.reset();//避免下次畫線仍接續上次的線
-			while (position + 1 < bitmapList.size()) {
-				bitmapList.remove(bitmapList.size() - 1);
-			}
-			addBitmap();
-			break;
-		case MotionEvent.ACTION_POINTER_DOWN:
-			isOtherTouch = true;
-			break;
-		case MotionEvent.ACTION_POINTER_UP:
-			break;
+			case MotionEvent.ACTION_DOWN:
+				isClear = false;
+				currentX = event.getX(event.getActionIndex());
+				currentY = event.getY(event.getActionIndex());
+				path.moveTo(currentX, currentY);
+				break;
+			case MotionEvent.ACTION_MOVE:
+				if (isOtherTouch) {
+					return true;
+				}
+				float x = event.getX(event.getActionIndex());
+				float y = event.getY(event.getActionIndex());
+				path.quadTo(currentX, currentY, x, y);
+				//quadTo代表的是從目前繪製路徑中的最後一個節點畫到下一個路徑節點之間更順暢。
+				//用以讓二個節點之間增加數個節點，連結起來更平滑，不會有急轉彎的線條出現。
+				currentX = x;
+				currentY = y;
+				break;
+			case MotionEvent.ACTION_UP:
+				isOtherTouch = false;
+				cacheCanvas.drawPath(path, paint);
+				path.reset();//避免下次畫線仍接續上次的線
+				addBitmap();
+				break;
+			case MotionEvent.ACTION_POINTER_DOWN:
+				isOtherTouch = true;
+				break;
+			case MotionEvent.ACTION_POINTER_UP:
+				break;
 
 		}
 		invalidate();
@@ -240,7 +220,7 @@ public class PenDrawView extends View {
 	//調出bitmapList的紀錄(position)
 	private Bitmap selectBitmap() {
 		Bitmap newBitmap = Bitmap.createBitmap(bitmapList.get(position)
-				.getWidth(), bitmapList.get(position).getHeight(),
+						.getWidth(), bitmapList.get(position).getHeight(),
 				Bitmap.Config.ARGB_8888);
 		Canvas newCanvas = new Canvas();
 		newCanvas.setBitmap(newBitmap);
@@ -248,3 +228,4 @@ public class PenDrawView extends View {
 		return newBitmap;
 	}
 }
+

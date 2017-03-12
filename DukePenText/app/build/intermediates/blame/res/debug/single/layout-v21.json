@@ -12,12 +12,28 @@
         "source": "E:\\AS_workspace\\DukePen1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
+        "merged": "E:\\Github\\Drawing-board\\DukePenText\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "E:\\Github\\Drawing-board\\DukePenText\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\Github\\Drawing-board\\DukePenText\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "E:\\Github\\Drawing-board\\DukePenText\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\Github\\Drawing-board\\DukePenText\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "E:\\Github\\Drawing-board\\DukePenText\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_action.xml"
+    },
+    {
         "merged": "E:\\AS_workspace\\DukePenText\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
         "source": "E:\\AS_workspace\\DukePenText\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
         "merged": "E:\\AS_workspace\\DukePen1\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
         "source": "E:\\AS_workspace\\DukePen1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\Github\\Drawing-board\\DukePenText\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "E:\\Github\\Drawing-board\\DukePenText\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
         "merged": "E:\\AS_workspace\\DukePenText\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",

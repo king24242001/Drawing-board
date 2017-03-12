@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\Github\\Drawing-board\\DukePenText\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "E:\\Github\\Drawing-board\\DukePenText\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "E:\\AS_workspace\\DukePenText\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
         "source": "E:\\AS_workspace\\DukePenText\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
